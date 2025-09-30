@@ -3,79 +3,79 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 255 255 255; /* was red */
-  --oui-color-primary-light: 135 206 235;
-  --oui-color-primary-darken: 135 206 235;
-  --oui-color-primary-contrast: 255 255 255;
+  --oui-color-primary: 176 176 176;
+  --oui-color-primary-light: 220 220 220;
+  --oui-color-primary-darken: 132 132 132;
+  --oui-color-primary-contrast: 0 0 0;
 
-  --oui-color-link: 0 0 255;
-  --oui-color-link-light: 173 216 230;
+  --oui-color-link: 255 255 255;
+  --oui-color-link-light: 220 220 220;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 255 255 255;
   --oui-color-quaternary: 255 255 255;
 
-  --oui-color-danger: 0 0 0; /* was red */
+  --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 128 128;
-  --oui-color-danger-darken: 0 0 0; /* was dark red */
-  --oui-color-danger-contrast: 0 0 0;
+  --oui-color-danger-darken: 200 50 50;
+  --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 0 255 0;
+  --oui-color-success: 41 233 169;
   --oui-color-success-light: 144 238 144;
-  --oui-color-success-darken: 0 64 0;
+  --oui-color-success-darken: 0 150 0;
   --oui-color-success-contrast: 0 0 0;
 
-  --oui-color-warning: 255 255 0;
+  --oui-color-warning: 255 209 70;
   --oui-color-warning-light: 255 255 153;
-  --oui-color-warning-darken: 128 128 0;
+  --oui-color-warning-darken: 200 150 0;
   --oui-color-warning-contrast: 0 0 0;
 
-  --oui-color-fill: 0 0 0;
-  --oui-color-fill-active: 40 0 0;
+  --oui-color-fill: 40 40 40;
+  --oui-color-fill-active: 60 60 60;
 
-  --oui-color-base-1: 173 173 255;
-  --oui-color-base-2: 135 135 235;
-  --oui-color-base-3: 107 107 216;
-  --oui-color-base-4: 87 87 255;
-  --oui-color-base-5: 70 70 180;
-  --oui-color-base-6: 56 56 176;
-  --oui-color-base-7: 105 105 200;
-  --oui-color-base-8: 24 24 210;
-  --oui-color-base-9: 14 14 170;
-  --oui-color-base-10: 0 0 0;
+  --oui-color-base-1: 43 43 43;
+  --oui-color-base-2: 36 36 36;
+  --oui-color-base-3: 32 32 32;
+  --oui-color-base-4: 29 29 29;
+  --oui-color-base-5: 25 25 25;
+  --oui-color-base-6: 22 22 22;
+  --oui-color-base-7: 51 51 51;
+  --oui-color-base-8: 20 20 20;
+  --oui-color-base-9: 18 18 18;
+  --oui-color-base-10: 14 14 14;
 
-  --oui-color-base-foreground: 0 0 0;
-  --oui-color-line: 0 0 0;
+  --oui-color-base-foreground: 255 255 255;
+  --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 0 0 0; /* was red */
-  --oui-color-trading-loss-contrast: 0 0 0;
-  --oui-color-trading-profit: 0 255 0;
+  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss-contrast: 255 255 255;
+  --oui-color-trading-profit: 41 233 169;
   --oui-color-trading-profit-contrast: 0 0 0;
 
   /* gradients */
-  --oui-gradient-primary-start: 135 206 235;
-  --oui-gradient-primary-end: 255 255 255; /* was red */
+  --oui-gradient-primary-start: 220 220 220;
+  --oui-gradient-primary-end: 255 255 255;
 
-  --oui-gradient-secondary-start: 81 42 121;
+  --oui-gradient-secondary-start: 81 81 81;
   --oui-gradient-secondary-end: 255 255 255;
 
-  --oui-gradient-success-start: 0 64 0;
-  --oui-gradient-success-end: 0 255 0;
+  --oui-gradient-success-start: 0 150 0;
+  --oui-gradient-success-end: 41 233 169;
 
-  --oui-gradient-danger-start: 0 0 0; /* was dark red */
-  --oui-gradient-danger-end: 0 0 0;   /* was red */
+  --oui-gradient-danger-start: 200 50 50;
+  --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 173 216 230;
-  --oui-gradient-brand-end: 0 0 255;
+  --oui-gradient-brand-start: 220 220 220;
+  --oui-gradient-brand-end: 255 255 255;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 128 128 0;
-  --oui-gradient-warning-end: 255 255 0;
+  --oui-gradient-warning-start: 200 150 0;
+  --oui-gradient-warning-end: 255 209 70;
 
-  --oui-gradient-neutral-start: 27 29 24;
-  --oui-gradient-neutral-end: 38 41 46;
+  --oui-gradient-neutral-start: 27 27 27;
+  --oui-gradient-neutral-end: 38 38 38;
 
   /* rounded */
   --oui-rounded-sm: 2px;
@@ -97,11 +97,11 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
-  background-color: #0000ff;
-  color: #000;
+  background-color: rgb(26 26 26);
+  color: rgb(255 255 255);
 }
 
 button {
-  background-color: #000;
-  color: #000;
+  background-color: rgb(26 26 26);
+  color: rgb(255 255 255);
 }
